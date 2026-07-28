@@ -1,0 +1,9 @@
+const router = require('express').Router();
+const { marked } = require('marked');
+const Document = require('../models/Document');
+router.get('/docs', async (req, res) => res.json(await Document.find().sort({ updatedAt: -1 })));
+router.get('/docs/:id', async (req, res) => res.json(await Document.findById(req.params.id)));
+router.post('/docs', async (req, res) => res.status(201).json(await Document.create(req.body)));
+router.put('/docs/:id', async (req, res) => res.json(await Document.findByIdAndUpdate(req.params.id, req.body, { new: true })));
+router.post('/preview', (req, res) => res.json({ html: marked.parse(req.body.content || '') }));
+module.exports = router;
