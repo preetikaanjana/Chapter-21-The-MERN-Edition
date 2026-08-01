@@ -24,7 +24,7 @@ Welcome to my 21-Day MERN Stack challenge! To celebrate turning 21, I am buildin
 | **16** | Interview Flashcards | CSS 3D transforms, tracking review scores | ✅ Complete | [Code](./Day16-Flashcards) |
 | **17** | Lo-Fi Soundboard | HTML5 Audio API, audio state control | ✅ Complete | [Code](./Day17-Soundboard) |
 | **18** | Habit Tracker Grid | Boolean matrix tracking, Date object checking | ✅ Complete | [Code](./Day19-Habit-Tracker) |
-| **20** | Simple Chat Room | Socket.io integration, Real-time state | ✅ Complete | [Code](./Day20-Chat-Room) |
+| **19** | Simple Chat Room | Socket.io integration, Real-time state | ✅ Complete | [Code](./Day20-Chat-Room) |
 | **21** | Portfolio Hub | Metadata aggregator, Master dashboard schema | ✅ Complete | [Code](./Day21-Portfolio-Hub) |
 
 ---
